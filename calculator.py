@@ -20,5 +20,8 @@ elif op == "/":
 elif op == "**":
     print(x, "to the power", y, "is", x ** y)
 
+elif op == "%":
+    print("modulus of ", x,"and", y, "is", x % y)
+
 else:
     print("invalid inputs")
